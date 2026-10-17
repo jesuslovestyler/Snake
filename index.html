@@ -64,6 +64,23 @@
 
     button { font: inherit; }
 
+    .home-row { display: flex; justify-content: flex-end; margin-bottom: 10px; }
+    .home-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      padding: 6px 13px;
+      border: 1.5px solid var(--line);
+      border-radius: 999px;
+      color: var(--ink);
+      background: var(--surface);
+      font: 700 .78rem/1 "Nunito Sans", sans-serif;
+      text-decoration: none;
+      box-shadow: 0 2px 0 var(--shadow);
+    }
+    .home-pill:active { background: var(--line); }
+    .home-pill:focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; }
+
     .page {
       width: min(100%, 720px);
       margin: 0 auto;
@@ -268,6 +285,7 @@
 </head>
 <body>
   <main class="page">
+    <div class="home-row"><a class="home-pill" href="https://jesuslovestyler.com/">⌂ Home</a></div>
     <section class="scorebar" aria-label="Game score">
       <div class="stat">
         <span class="stat-label">Score</span>
@@ -597,5 +615,6 @@
       resizeCanvas();
     })();
   </script>
+  <script data-goatcounter="https://jesuslovestyler.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 </body>
 </html>
