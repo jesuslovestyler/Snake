@@ -1,7 +1,8 @@
 # Snake
 
-The classic snake game — eat, grow, and don't hit the walls. Smooth controls on desktop and touch.
+A free snake game you play in your browser: the timeless classic — eat, grow, and whatever you do, don't bite your own tail.
 
-No ads, no tracking — just a game.
+**Live:** https://jesuslovestyler.github.io/Snake/
+**Home:** https://jesuslovestyler.com/
 
-Built with Muse artifacts.
+One self-contained page: no account, no ads, nothing to buy. Released into the public domain (Unlicense — see LICENSE). Built by Tyler with Noki.
